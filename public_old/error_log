@@ -1,0 +1,2 @@
+[21-Jun-2024 11:28:49 Asia/Kolkata] PHP Fatal error:  Trait "App\Models\SoftDeletes" not found in /home4/vilvaeci/Internal/VilvaBusinessV2/app/Models/Lead.php on line 8
+[21-Jun-2024 11:28:51 Asia/Kolkata] PHP Fatal error:  Trait "App\Models\SoftDeletes" not found in /home4/vilvaeci/Internal/VilvaBusinessV2/app/Models/Lead.php on line 8
