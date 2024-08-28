@@ -12,15 +12,31 @@
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
 
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Google & YouTube Marketing</h1>
-                <p style="color:black; ,font-size: 40px;">Google & YouTube Marketing, we are a team of experts passionate about helping businesses thrive in the e-commerce space. With our deep knowledge of WhatsApp API, AI chatbots, and e-commerce SaaS solutions, we provide customized solutions that address the traditional, transformational, and future needs of our clients. Our focus on innovation and quality ensures that Magento-based businesses are equipped to succeed in a rapidly evolving digital landscape.!</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Google & YouTube Marketing</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">Google & YouTube Marketing, we are a team of experts passionate about helping businesses thrive in the e-commerce space. With our deep knowledge of WhatsApp API, AI chatbots, and e-commerce SaaS solutions, we provide customized solutions that address the traditional, transformational, and future needs of our clients. Our focus on innovation and quality ensures that Magento-based businesses are equipped to succeed in a rapidly evolving digital landscape.!</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" style="background-image: url(http://staging.vilvabusiness.com/vbtheme/images/marketing/fb.png); height: 80% ;  width: 100%;  background-size: cover;  background-position: top ; background-repeat: no-repeat;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Google & Youtube Marketing</h1>
+          <p> Use YouTube ads to promote your brand and drive website clicks, phone calls or in-store visits.</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Google & Youtube Marketing</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
  <div class="features-layout2">
         <div class="row  mx-auto container">
             <div class="col-12 col-md-4 ">
@@ -88,24 +104,8 @@
         </div>
     </div>
 
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
+
 </body>  
+@include('customer.layouts.blogsection')
+
 @endsection

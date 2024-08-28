@@ -13,15 +13,32 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about ">
-            <div class="text-center container">
-                 <h1>Oracle PL/SQL Web Services</h1>
-                <p style="color:black; ,font-size: 40px;">we specialize in delivering tailored solutions that harness the power of Oracle's PL/SQL for creating efficient and scalable web services. Our expert team designs and develops web services that enable seamless integration of your Oracle databases with various applications and platforms. By leveraging the robustness of PL/SQL, we ensure that your data processing is optimized for performance, security, and reliability.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about ">-->
+<!--            <div class="text-center container">-->
+<!--                 <h1>Oracle PL/SQL Web Services</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">we specialize in delivering tailored solutions that harness the power of Oracle's PL/SQL for creating efficient and scalable web services. Our expert team designs and develops web services that enable seamless integration of your Oracle databases with various applications and platforms. By leveraging the robustness of PL/SQL, we ensure that your data processing is optimized for performance, security, and reliability.</p>-->
                 
-            </div> 
+<!--            </div> -->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=0n6-5TFgPRA">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Oracle, PL/SQL Web Services</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Oracle, PL/SQL Web Services</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
+
  <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">Enhance complex query performance. </h5>
@@ -107,62 +124,14 @@
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                         <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in Oracle PL/SQL Services</h3>
-                            <p style="color: #28334a ;">Recent trends in Oracle PL/SQL services include the adoption of cloud-based databases, which offer greater scalability and flexibility for handling large volumes of data. Automated performance tuning tools are becoming more prevalent, allowing for real-time adjustments to optimize query performance and reduce bottlenecks. Integration with AI and machine learning technologies enhances data analytics capabilities, enabling more advanced predictive insights.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Oracle</h5>
-                            <h4>AI and Machine Learning Integration</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Oracle</h5>
-                            <h4>Secure Transaction</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Oracle</h5>
-                            <h4>Data warehouse</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=0n6-5TFgPRA'
+  });
+</script>
 @endsection

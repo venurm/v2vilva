@@ -10,15 +10,31 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>iOS Solutions</h1>
-                <p style="color:black; ,font-size: 40px;">At  iOS Solutions, our team of expert developers is committed to crafting exceptional mobile experiences tailored to your business needs. Leveraging the latest technologies, including WhatsApp API, AI chatbots, and e-commerce SaaS solutions, we design and build iOS applications that are intuitive, secure, and high-performing. Our customized approach ensures that your app stands out in the competitive iOS marketplace, driving user engagement and meeting both current and future demands. By focusing on innovation and user-centric design, we help you achieve your business goals and maintain a competitive edge in the rapidly evolving mobile landscape.!</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>iOS Solutions</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">At  iOS Solutions, our team of expert developers is committed to crafting exceptional mobile experiences tailored to your business needs. Leveraging the latest technologies, including WhatsApp API, AI chatbots, and e-commerce SaaS solutions, we design and build iOS applications that are intuitive, secure, and high-performing. Our customized approach ensures that your app stands out in the competitive iOS marketplace, driving user engagement and meeting both current and future demands. By focusing on innovation and user-centric design, we help you achieve your business goals and maintain a competitive edge in the rapidly evolving mobile landscape.!</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=DbyIixuuazM">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Ios Ecommerce App Solutions</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Ios Ecommerce App Solutions</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
       <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">Unlock premium user engagement </h5>
@@ -53,10 +69,10 @@
         <div class="row container pt-5 mx-auto">
             <div class="col-md-6 col-12">
                 <div class="useimg">
-                   <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 100%;width: 90%;">
+                   <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 79%;width: 90%;">
                 </div>
             </div>
-            <div class="col-12 col-md-6 mt-5">
+            <div class="col-12 col-md-6 ">
                 <div class="row" id="row1">
                     <h3>Business Applications</h3>
                     <p>Custom apps for streamlining business processes, managing workflows, and enhancing productivity in various industries.</p>
@@ -89,75 +105,24 @@
 
     <div class="ready mt-5 pb-5 container">
         <div class="ready-des">
-            <h3 style="color: #001e60;">Ready to Get Started? </h3>
+            <h3 style="color: #001e60;">Craft Your Success – Partner with Vilva Business Today!</h3>
             <h5 style="color: #28334a;">Experience device management, made easy!
             </h5>
             <div class="contact-us">
-                <button type="button">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                <button type="button"><a href="/contact" target="_blank" style="color:white;">Initiate Your Project</a><i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
         </div>
     </div>
 
-     <div class="latest-news pb-5  pt-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                      <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in IOS App development</h3>
-                            <p style="color: #28334a ;">IOS app development continues to evolve with several key trends and innovations. The integration of ARKit enhances augmented reality experiences, allowing developers to create immersive applications for various uses. Machine learning through Core ML enables apps to offer personalized experiences and advanced data analysis. The adoption of SwiftUI simplifies UI design with declarative syntax, speeding up development. </p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>IOS</h5>
-                            <h4>Augmented Reality and Machine Learning
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>IOS</h5>
-                            <h4>SwiftUI and 5G Integration
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>IOS</h5>
-                            <h4>Privacy, Security, and Wearable Tech
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=DbyIixuuazM'
+  });
+</script>
 @endsection

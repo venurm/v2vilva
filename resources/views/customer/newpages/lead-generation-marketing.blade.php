@@ -10,15 +10,33 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Lead Generation Marketing</h1>
-                <p style="color:black; ,font-size: 40px;">Lead Generation Marketing, strategic approach focused on identifying and attracting potential customers for your business. By using targeted marketing tactics, businesses can capture valuable leads that are more likely to convert into paying customers, fueling growth and success.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Lead Generation Marketing</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">Lead Generation Marketing, strategic approach focused on identifying and attracting potential customers for your business. By using targeted marketing tactics, businesses can capture valuable leads that are more likely to convert into paying customers, fueling growth and success.</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" style="background-image: url(http://staging.vilvabusiness.com/vbtheme/images/marketing/ls.png);   height: 80% ;  width: 100%;  background-size: cover;  background-position: top ; background-repeat: no-repeat;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Lead Generation Marketing</h1>
+          <p>Attracting prospects to your business and increasing their interest through nurturing, all with the end goal of converting them into a customer.</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Lead Generation Marketing</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
+
+
  <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;"> Lead Generation Marketing</h5>
@@ -115,64 +133,8 @@
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                          <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in Lead Generation Marketing</h3>
-                            <p style="color: #28334a ;">Lead generation marketing is increasingly utilizing AI to refine 
-                                targeting and personalization. Automation tools are streamlining processes and improving efficiency. Integration with CRM systems is enhancing lead nurturing and conversion strategies.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Customer Retention
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>boosted performance</h4> 
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4> Social Campaigning</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     
 </body>    
+@include('customer.layouts.blogsection')
+
 @endsection

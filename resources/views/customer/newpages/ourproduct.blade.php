@@ -34,7 +34,7 @@
           <div class="row content-con" style="background-color: white;">
             <div class=" col-12 col-md-8" style="display: flex;">
                 <div>
-            <p>The WhatsApp service allows businesses to send automated notifications, customer support messages, and marketing communications directly to their clients. By integrating WhatsApp, companies can leverage its end-to-end encryption, ensuring that all interactions remain private and secure. Additionally, businesses can utilize WhatsApp's rich media capabilities to share images, videos, and documents, enhancing the customer experience. This integration can streamline communication processes, improve customer satisfaction, and drive higher engagement rates.</p>
+            <p> Instant messaging and voice calls with end-to-end encryption, trusted by billions worldwide.</p>
                 
              <!-- <p>
                 Moreover, WhatsApp integration can significantly simplify account management for customers. Businesses can guide customers through the account creation process with step-by-step instructions sent via WhatsApp messages. This can include sending verification codes, confirming email addresses, and providing immediate support if any issues arise.</p> -->

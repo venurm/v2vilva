@@ -11,16 +11,34 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
 
+
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Bank Verification API</h1>
-                <p style="color:black; ,font-size: 40px;">At Bank Verification API, we offer a robust and secure solution designed to streamline the process of verifying bank account details in real-time. Our API enables businesses to instantly validate customer bank information, ensuring accuracy and reducing the risk of fraudulent transactions. By integrating our API into your systems, you can automate the verification process, which speeds up customer onboarding and improves the overall user experience.!</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Bank Verification API</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">At Bank Verification API, we offer a robust and secure solution designed to streamline the process of verifying bank account details in real-time. Our API enables businesses to instantly validate customer bank information, ensuring accuracy and reducing the risk of fraudulent transactions. By integrating our API into your systems, you can automate the verification process, which speeds up customer onboarding and improves the overall user experience.!</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=X8FkegKcfjo">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Bank Verification API's</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Bank Verification API's</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
+
  <div class="features-layout2">
         <div class="row  mx-auto container">
             <div class="col-12 col-md-4 ">
@@ -85,25 +103,14 @@
 
         </div>
     </div>
+     
+</body> 
+@include('customer.layouts.blogsection')
 
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
-</body>   
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=X8FkegKcfjo'
+  });
+</script>
 @endsection

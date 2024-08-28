@@ -10,15 +10,31 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about ">
-            <div class="text-center container">
-                 <h1>Shopify Solutions</h1>
-                <p style="color:black; ,font-size: 40px;">Shopify Solutions, we are a team of dedicated professionals who combine technical expertise with a deep understanding of e-commerce trends. We specialize in integrating advanced tools like WhatsApp API, AI chatbots, and tailored SaaS solutions to enhance your Shopify store. Our services are designed to meet your business's unique requirements, helping you adapt to current market demands while preparing for future growth. With a focus on innovation and strategic execution, we ensure that your Shopify store remains agile, competitive, and ready to scale in an evolving digital marketplace.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about ">-->
+<!--            <div class="text-center container">-->
+<!--                 <h1>Shopify Solutions</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">Shopify Solutions, we are a team of dedicated professionals who combine technical expertise with a deep understanding of e-commerce trends. We specialize in integrating advanced tools like WhatsApp API, AI chatbots, and tailored SaaS solutions to enhance your Shopify store. Our services are designed to meet your business's unique requirements, helping you adapt to current market demands while preparing for future growth. With a focus on innovation and strategic execution, we ensure that your Shopify store remains agile, competitive, and ready to scale in an evolving digital marketplace.</p>-->
                 
-            </div> 
+<!--            </div> -->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=OiHJKG14GdU">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Shopify Ecommerce Solutions</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Shopify Ecommerce Solutions</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
     <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">Enjoy seamless e-commerce </h5>
@@ -54,10 +70,10 @@
         <div class="row container pt-5 mx-auto">
             <div class="col-md-6 col-12">
                 <div class="useimg">
-                      <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 100%;width: 90%;">
+                      <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 76%;width: 90%;">
                 </div>
             </div>
-            <div class="col-12 col-md-6 mt-5">
+            <div class="col-12 col-md-6 ">
                 <div class="row" id="row1">
                     <h3>E-commerce Stores</h3>
                     <p>Ideal for creating and managing online retail shops selling physical or digital products.</p>
@@ -85,80 +101,24 @@
         </div>
     </div>
 
-
-
-
-    <div class="ready mt-5 pb-5 container">
+<div class="ready mt-5 pb-5 container">
         <div class="ready-des">
-            <h3 style="color: #001e60;">Ready to Get Started? </h3>
+            <h3 style="color: #001e60;">Dream Big  Achieve Bigger – Partner with Vilva Business! </h3>
             <h5 style="color: #28334a;">Experience device management, made easy!
             </h5>
             <div class="contact-us">
-                <button type="button">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                <button type="button"><a href="/contact" target="_blank" style="color:white;"> Explore the Benefits</a><i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-        </div>
-    </div>
-
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                          <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in Shopify website development</h3>
-                            <p style="color: #28334a ;">Recent trends and innovations in Shopify website development emphasize enhanced user experiences, AI integration, and omnichannel capabilities. AI-driven product recommendations and customer segmentation enable personalized shopping experiences. Mobile-first design remains crucial for seamless device compatibility. Shopify's customizable themes offer greater design flexibility and creativity.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Shopify</h5>
-                            <h4>Enhanced User Experiences and Personalization
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Shopify</h5>
-                            <h4>AI Integration and Mobile-First Design
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Shopify</h5>
-                            <h4>Expanded Payment Solutions and Sustainability Focus
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=OiHJKG14GdU'
+  });
+</script>
 @endsection

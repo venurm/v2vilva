@@ -11,15 +11,31 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Payment Collection Services</h1>
-                <p style="color:black; ,font-size: 40px;">At Payment Collection Services, we provide tailored solutions designed to streamline the payment collection process for businesses of all sizes. Our services integrate advanced technologies to automate invoicing, enable multiple payment methods, and ensure timely collections. With features like secure transaction processing, automated reminders, and real-time tracking, we help businesses manage their receivables more efficiently.!</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Payment Collection Services</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">At Payment Collection Services, we provide tailored solutions designed to streamline the payment collection process for businesses of all sizes. Our services integrate advanced technologies to automate invoicing, enable multiple payment methods, and ensure timely collections. With features like secure transaction processing, automated reminders, and real-time tracking, we help businesses manage their receivables more efficiently.!</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=vRkvdeqqDwA">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Payment Collection Services</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Payment Collection Services</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
 <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">Accelerate cash flow management</h5>
@@ -102,63 +118,15 @@
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                          <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in Payment Collection Solutions</h3>
-                            <p style="color: #28334a ;">Payment collection solutions are evolving with several key trends and innovations. The rise of contactless payments and digital wallets is making transactions faster and more convenient for users. Blockchain technology is being adopted for its secure and transparent transaction capabilities. AI and machine learning are enhancing fraud detection and improving transaction security by identifying suspicious patterns. </p>
+     
+</body>   
+@include('customer.layouts.blogsection')
 
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Contactless Payments </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Digital Wallets</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Secure Transaction</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>    
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=vRkvdeqqDwA'
+  });
+</script>
 @endsection
     

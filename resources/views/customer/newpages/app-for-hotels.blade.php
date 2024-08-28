@@ -10,19 +10,36 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
+
 <body>
-    <div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>App for Hotels</h1>
-                <p style="color:black; ,font-size: 40px;">At  App for Hotels, we craft tailored mobile solutions that enhance every aspect of the guest experience. Our expert team leverages cutting-edge technologies such as WhatsApp API for seamless communication, AI chatbots for 24/7 support, and e-commerce SaaS features for efficient booking and management. We design intuitive apps that simplify reservations, provide detailed information about amenities, and streamline check-ins and check-outs. With a focus on innovation and user experience, we help hotels improve guest satisfaction, optimize operations, and stand out in a competitive hospitality industry.!</p>
+    <!--<div class="banner ">-->
+    <!--    <div class="heading-about">-->
+    <!--        <div class="text-center container">-->
+    <!--            <h1>App for Hotels</h1>-->
+    <!--            <p style="color:black; ,font-size: 40px;">At  App for Hotels, we craft tailored mobile solutions that enhance every aspect of the guest experience. Our expert team leverages cutting-edge technologies such as WhatsApp API for seamless communication, AI chatbots for 24/7 support, and e-commerce SaaS features for efficient booking and management. We design intuitive apps that simplify reservations, provide detailed information about amenities, and streamline check-ins and check-outs. With a focus on innovation and user experience, we help hotels improve guest satisfaction, optimize operations, and stand out in a competitive hospitality industry.!</p>-->
                 
-            </div>
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=0n6-5TFgPRA">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>App for Hotels</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>App for Hotels</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
  <div class="features-layout2">
         <div class="row  mx-auto container">
-            <div class="col-12 col-md-4 ">
+            <div class="col-12 col-md-4 mt-3">
                 <div class="layout-col-2 mt-3">
                 <div class="top-bg"></div>
                 <div class="imgforcol-test">
@@ -33,7 +50,7 @@
                 <p>An Android app can provide guests with convenient features like mobile check-in/check-out, room service requests, and real-time booking management. This streamlines their stay and improves overall satisfaction.</p>
             </div>
         </div>
-            <div class="col-md-4 col-12 ">
+            <div class="col-md-4 col-12 mt-3 ">
                 <div class="layout-col-2 mt-3">
                 <div class="top-bg-c"></div>
                 <div class="imgforcol">
@@ -46,7 +63,7 @@
             </div>
             </div>
 
-            <div class="col-md-4 col-12 ">
+            <div class="col-md-4 col-12 mt-3">
                 <div class="layout-col-2 mt-3">
                 <div class="top-bg"></div>
                 <div class="imgforcol-test">
@@ -67,11 +84,11 @@
             </div>
             <div class="col-12 col-md-6 project-des" style="color:#001e60;">
                 <div class="project-des-con">
-                    <h2>Start your project with Us today</h2>
-                    <p>Get started with our cutting-edge e-commerce solutions today and elevate your online business with tailored strategies and innovative technology. Transform your customer experience and drive growth effortlessly!</p>
+                    <h2>Your Future is Bright – Start Shining with Vilva Business!</h2>
+                    <p>Enhance guest satisfaction with our tailored hotel app solutions. Simplify bookings, improve service, and create a memorable stay for your customers with just a tap!</p>
 
                         <div class="layout-btn">
-                            <button type="button">Start a Project &nbsp;&nbsp;&nbsp;   <i class="ri-arrow-right-line"></i>
+                            <button type="button"><a href="/contact" target="_blank" style="color:white;"> Become a Member</a>&nbsp;&nbsp;&nbsp;   <i class="ri-arrow-right-line"></i>
                             </button>
                 </div>
                 
@@ -82,26 +99,14 @@
 
         </div>
     </div>
+</body>  
+@include('customer.layouts.blogsection')
 
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
-</body>   
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=0n6-5TFgPRA'
+  });
+</script>
 @endsection
     

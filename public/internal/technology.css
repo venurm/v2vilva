@@ -89,6 +89,10 @@ body {
     margin: 40px;
 }
 
+.technology-all{
+    overflow:hidden;
+}
+
 /* Tech Container */
 .tech-cont {
     background-image: url("./logo/bglines.svg");

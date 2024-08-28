@@ -20,7 +20,7 @@
 }
 
 .heading-about {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.051)), url(../internal/images/pattern-bg.png);;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.051)), url(../internal/images/pattern-bg.png);
     height: 300px;
     width: 100%;
     margin-bottom: 50px;

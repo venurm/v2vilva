@@ -10,25 +10,42 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about ">
-            <div class="text-center container">
-                 <h1>App for Restaurants</h1>
-                <p style="color:black; ,font-size: 40px;">App for Restaurants, we create custom mobile solutions designed to transform the dining experience for both restaurant owners and patrons. Our expert team integrates advanced technologies, including WhatsApp API for seamless communication, AI chatbots for enhanced customer service, and e-commerce SaaS features for efficient management. Our apps are designed to streamline operations, from online reservations and menu browsing to order placement and delivery tracking. With a focus on user-friendly design and innovative functionality, we help restaurants boost customer satisfaction, increase efficiency, and stay ahead in a competitive market..</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about ">-->
+<!--            <div class="text-center container">-->
+<!--                 <h1>App for Restaurants</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">App for Restaurants, we create custom mobile solutions designed to transform the dining experience for both restaurant owners and patrons. Our expert team integrates advanced technologies, including WhatsApp API for seamless communication, AI chatbots for enhanced customer service, and e-commerce SaaS features for efficient management. Our apps are designed to streamline operations, from online reservations and menu browsing to order placement and delivery tracking. With a focus on user-friendly design and innovative functionality, we help restaurants boost customer satisfaction, increase efficiency, and stay ahead in a competitive market..</p>-->
                 
-            </div> 
+<!--            </div> -->
+<!--        </div>-->
+<!--    </div>-->
+
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=BePoG2ONkTw">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Apps for Restaurant</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Apps for Restaurant</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
  <div class="prod-des container ">
         <div class="prod-head">
-            <h5 style="color: #4a12f0;">"Streamlined ordering and efficiency" </h5>
-            <h2 style="color: #001e60;">Enjoy effortless ordering , increased engagement and operational efficiency </h2>
+            <h5 style="color: #4a12f0;">Streamlined ordering and efficiency </h5>
+            <h2 style="color: #001e60;">Enjoy effortless ordering  increased engagement and operational</h2>
         </div>
         <div class="benifits mx-auto">
             <div class="col-md-3 col-12 ben-ai">
                <img src="{{ asset('internal/templatesimages/growsuite.png') }}" alt="" srcset="">
                 <h3 style="color: #001e60;">Streamlined Ordering Process</h3>
-                <p>An app allows customers to place orders quickly and easily, reducing wait times and increasing order accuracy.</p>
+                <p>An app allows customers to place orders quickly and easily reducing wait times and increasing order accuracy.</p>
             </div>
             <div class="col-md-3 col-12 ben-ai">
                 <img src="{{ asset('internal/templatesimages/growsuiteimage.png') }}" alt="" srcset="">
@@ -53,10 +70,10 @@
         <div class="row container pt-5 mx-auto">
             <div class="col-md-6 col-12">
                 <div class="useimg">
-                     <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 100%;width: 90%;">
+                     <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 90%;">
                 </div>
             </div>
-            <div class="col-12 col-md-6 mt-5">
+            <div class="col-12 col-md-6 ">
                 <div class="row" id="row1">
                     <h3>Online Ordering</h3>
                     <p>Allowing customers to place and customize orders from their phones, including delivery and pickup options.</p>
@@ -88,74 +105,25 @@
 
     <div class="ready mt-5 pb-5 container">
         <div class="ready-des">
-            <h3 style="color: #001e60;">Ready to Get Started? </h3>
+            <h3 style="color: #001e60;">Create, Grow, Thrive – Begin with Vilva Business! </h3>
             <h5 style="color: #28334a;">Experience device management, made easy!
             </h5>
             <div class="contact-us">
-                <button type="button">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                <button type="button"><a href="/contact" target="_blank" style="color:white;">Set Your Plan in Motion</a><i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                       <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in app for restaurant</h3>
-                            <p style="color: #28334a ;">
-                                Recent trends and innovations in restaurant apps focus on enhancing customer experiences and operational efficiency. Mobile ordering and payment options have become standard, reducing wait times and increasing convenience. Integration with delivery services has expanded, allowing for seamless online orders and deliveries.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Mobile Ordering</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Best UI/UX</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Contactless Features</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=BePoG2ONkTw'
+  });
+</script>
 @endsection
     

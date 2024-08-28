@@ -12,15 +12,32 @@
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
 
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Official WhatsApp Business & Facebook Business</h1>
-                <p style="color:black; ,font-size: 40px;">Official WhatsApp Business & Facebook Business, is a powerful duo designed to elevate business communication and customer engagement. By combining the strengths of these two leading platforms, businesses can seamlessly connect with their audience, manage interactions, and drive growth.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Official WhatsApp Business & Facebook Business</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">Official WhatsApp Business & Facebook Business, is a powerful duo designed to elevate business communication and customer engagement. By combining the strengths of these two leading platforms, businesses can seamlessly connect with their audience, manage interactions, and drive growth.</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=_Dd9Ko2HLbo">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Official WhatsApp Business & Facebook Business Setup</h1>
+          <p>Keep up with your Facebook accounts by creating, scheduling posts.</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Official WhatsApp Business & Facebook Business Setup</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
+
   <div class="features-layout2">
         <div class="row  mx-auto container">
             <div class="col-12 col-md-4 ">
@@ -88,24 +105,15 @@
         </div>
     </div>
 
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
-</body>    
+
+</body>   
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=_Dd9Ko2HLbo'
+  });
+</script>
+@endsection
     

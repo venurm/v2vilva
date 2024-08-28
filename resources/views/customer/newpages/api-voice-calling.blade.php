@@ -10,15 +10,31 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>API Voice Calling</h1>
-                <p style="color:black; ,font-size: 40px;">API Voice Calling, robust communication solution that allows businesses to integrate voice calling capabilities directly into their applications and systems. Through a simple API, businesses can automate voice calls for a wide range of use cases, including customer notifications, reminders, surveys, and more.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>API Voice Calling</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">API Voice Calling, robust communication solution that allows businesses to integrate voice calling capabilities directly into their applications and systems. Through a simple API, businesses can automate voice calls for a wide range of use cases, including customer notifications, reminders, surveys, and more.</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=fQHlN_-Gwrc">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>API based Voice Calling</h1>
+          <p>Faster Time to Market</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>API based Voice Calling</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
  <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">API-Based Voice Calling</h5>
@@ -113,65 +129,15 @@
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                          <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in   API voice calling  </h3>
-                            <p style="color: #28334a ;">API-based voice calling is advancing with AI-driven natural language processing and improved security features. Integration with other communication channels is becoming more seamless. Personalization and real-time analytics are enhancing user experiences.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Customer Retention
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Promotional Campaign
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4> Accuracy and speeds up the process</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=fQHlN_-Gwrc'
+  });
+</script>
 @endsection
     

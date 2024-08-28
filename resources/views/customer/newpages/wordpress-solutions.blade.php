@@ -10,16 +10,33 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
+
 <body>
-    <div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>WordPress Solutions</h1>
-                <p style="color:black; ,font-size: 40px;">AtWordPress Solutions, we are a team of dedicated experts who are passionate about delivering exceptional results. Leveraging our proficiency in WhatsApp API, AI chatbots, and e-commerce SaaS solutions, we create tailored solutions that meet the traditional, transformational, and future needs of our clients. Our focus on innovation and seamless integration ensures that WordPress-based businesses can enhance their online presence and achieve sustainable growth in a competitive digital environment.!</p>
+    <!--<div class="banner ">-->
+    <!--    <div class="heading-about">-->
+    <!--        <div class="text-center container">-->
+    <!--            <h1>WordPress Solutions</h1>-->
+    <!--            <p style="color:black; ,font-size: 40px;">AtWordPress Solutions, we are a team of dedicated experts who are passionate about delivering exceptional results. Leveraging our proficiency in WhatsApp API, AI chatbots, and e-commerce SaaS solutions, we create tailored solutions that meet the traditional, transformational, and future needs of our clients. Our focus on innovation and seamless integration ensures that WordPress-based businesses can enhance their online presence and achieve sustainable growth in a competitive digital environment.!</p>-->
                 
-            </div>
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=sJTN0g4Bx0I">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Wordpress Ecommerce Solutions</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Wordpress Ecommerce Solutions</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
     <div class="features-layout2">
         <div class="row  mx-auto container">
             <div class="col-12 col-md-4 mt-3">
@@ -68,11 +85,15 @@
             </div>
             <div class="col-12 col-md-6 project-des" style="color:#001e60;">
                 <div class="project-des-con">
-                    <h2>Start your project with Us today</h2>
-                    <p>Get started with our cutting-edge e-commerce solutions today and elevate your online business with tailored strategies and innovative technology. Transform your customer experience and drive growth effortlessly!</p>
-
+                    <h2>Why Choose Us?</h2>
+                     <h4>Custom Design</h4>
+                     <p>Unique, mobile-responsive designs that align with your brand identity.</p>
+                     <h4>SEO Optimization</h4>
+                     <p>Built-in SEO best practices to enhance your visibility and rank higher on search engines.</p>
+                     <h4>Ongoing Support</h4>
+                     <p> Reliable maintenance and support to ensure your website remains at its best.</p>
                         <div class="layout-btn">
-                            <button type="button">Start a Project &nbsp;&nbsp;&nbsp;   <i class="ri-arrow-right-line"></i>
+                            <button type="button"><a href="/contact" target="_blank" style="color:white;">Free Consultation</a>&nbsp;&nbsp;&nbsp;   <i class="ri-arrow-right-line"></i>
                             </button>
                 </div>
                 
@@ -82,27 +103,14 @@
             </div>
 
         </div>
-    </div>
-
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
-
+</div>
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=sJTN0g4Bx0I'
+  });
+</script>
 @endsection

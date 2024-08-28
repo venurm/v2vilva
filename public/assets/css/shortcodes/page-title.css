@@ -22,10 +22,10 @@ ul.page-breadcrumb { padding-top: 30px; }
 ul.page-breadcrumb li { color: #fff; display: inline-block; list-style: none; }
 ul.page-breadcrumb li i { font-size: 14px; padding: 0 7px;} 
 ul.page-breadcrumb li a { color: #fff; font-size: 14px; text-transform: capitalize; }
-ul.page-breadcrumb li a:hover {  color: #007e60; }
+ul.page-breadcrumb li a:hover {  color: #497DFF; }
 .page-title.gray-bg h1, .page-title.gray-bg p { color: #323232; }
 .page-title.gray-bg ul.page-breadcrumb li a { color: #323232; }
-.page-title.gray-bg ul.page-breadcrumb li a:hover { color: #007e60; }
+.page-title.gray-bg ul.page-breadcrumb li a:hover { color: #779cff; }
 .page-title.gray-bg ul.page-breadcrumb li { color: #323232; }
 .page-title.gray-bg ul.page-breadcrumb li span { color: #007e60; }
 

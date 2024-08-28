@@ -12,15 +12,31 @@
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
 
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Custom Voice Calling</h1>
-                <p style="color:black; ,font-size: 40px;">Custom Voice Calling, versatile communication solution that allows businesses to deliver personalized voice messages to their audience. By tailoring messages to specific recipients, businesses can create a more engaging and direct form of communication that resonates with customers.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Custom Voice Calling</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">Custom Voice Calling, versatile communication solution that allows businesses to deliver personalized voice messages to their audience. By tailoring messages to specific recipients, businesses can create a more engaging and direct form of communication that resonates with customers.</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=WQc0LvGs4xk">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Custom Voice Calling</h1>
+          <p>Send customized voice calls to an audience based on the message, language, etc.</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Custom Voice Calling</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
    <div class="features-layout2">
         <div class="row  mx-auto container">
             <div class="col-12 col-md-4 ">
@@ -88,25 +104,15 @@
         </div>
     </div>
 
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
+
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=WQc0LvGs4xk'
+  });
+</script>
 @endsection
     

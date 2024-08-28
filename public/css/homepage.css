@@ -17,12 +17,96 @@
 .navbar-nav {
     margin-left: auto;
 }
-
+.main-menu{
+    display: none;
+}
+.navbar-nav{
+    display: block;
+}
 @media (max-width: 992px) {
+    .main-menu{
+        display: block;
+    }
+    .vil{
+        width: 200px !important;
+    }
     .navbar-nav {
         margin-left: 0;
         /* background-color: #040E56; */
+        display: none !important;
     }
+    /* Main Menu Styles */
+.main-menu {
+    font-family: Arial, sans-serif;
+    overflow: scroll;
+}
+
+.primary-menu-item {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f5f5f5; /* Main menu background */
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+/* Submenu Styles */
+.dropdown-menu1 {
+    display: none;
+    background-color: #f5f5f5; /* Submenu background */
+    padding: 0;
+    left: 0;
+    top: 100%; /* Position below the main menu item */
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+/* Submenu Visible */
+.dropdown-menu1.visible {
+    display: flex;
+    opacity: 1;
+}
+
+/* Nested Submenu Styles */
+.dropdown-menu22 {
+    display: none;
+    background-color: #f5f5f5; /* Nested submenu background */
+    padding: 0;
+    top: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+/* Nested Submenu Visible */
+.dropdown-menu22.visible {
+    display: block;
+    max-height: 300px; /* Adjust based on content */
+    opacity: 1;
+}
+
+/* Menu Item Styles */
+.menu-item, .menu-item2 {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* Expand Indicator */
+.submenu-indicator {
+    font-size: 12px;
+    margin-left: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate Indicator */
+.primary-menu-item.active .submenu-indicator {
+    transform: rotate(45deg);
+}
+
 }
 
 
@@ -96,6 +180,11 @@ letter-spacing: 1.2px;
 
     --z-tooltip: 10;
     --z-fixed: 100;
+}
+
+::selection{
+    background-color: #05116dc8 !important;
+    color: white !important;
 }
 
 /*========== Responsive typography ==========*/
@@ -404,7 +493,7 @@ a {
     font-family: Urbanist;
     font-size: 15px;
     font-weight: 600;
-    padding: 9px 10px;
+    padding: 10px 10px !important;
     border: 1px solid #2A2A2A;
     cursor: pointer;
 }
@@ -460,7 +549,7 @@ a {
     align-items: center;
     font-family: Montserrat;
     border: none !important;
-    padding: 5px;
+    padding: 5px 10px;
     background-color: #497DFF;
     color: white;
     border-radius: 5px;
@@ -482,7 +571,7 @@ a {
 }
 
 .choose {
-    padding-top: 10px;
+    padding-top: 155px !important;
 }
 
 .tick {
@@ -538,7 +627,7 @@ li {
 
 .service {
     width: 248.98px;
-    height: 290px;
+    height: 310px;
     color: white;
     border-radius: 1px;
     border: 1px solid #56FFBD !important;
@@ -555,7 +644,7 @@ li {
     height: 442px;
     width: 500px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
@@ -564,7 +653,7 @@ li {
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400 !important;
     line-height: 24px;
     /* 150% */
 }
@@ -579,13 +668,31 @@ li {
     /* 112% */
 
 }
+.cooldes{
+    background-color: #497dff !important;
+    padding: 8px 10px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+}
+.uiux{
+    background-color: #040E56;
+    padding: 8px 10px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+}
 
-.vision-all {
+/* .vision-all {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 30px;
-}
+    gap: 10px;
+} */
 
 .vision {
     color: #497DFF;
@@ -609,7 +716,7 @@ li {
 
 .vision p {
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
@@ -733,7 +840,7 @@ li {
     color: #040E56;
     text-align: center;
     font-family: Urbanist;
-    font-size: 82px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 82px;
@@ -907,6 +1014,10 @@ li {
 .header {
     display: flex;
     justify-content: space-around;
+    box-shadow: 0 5px 20px rgba(51, 57, 88, 0.2);
+
+    
+
 }
 
 .horizontal-list {
@@ -914,12 +1025,13 @@ li {
     /* Removes default list styles */
     padding: 0;
     margin: 0;
-   background-image: url(../internal/images/lapbelow.png);
+    background-color:#040E56;
+   background-image: url(../internal/images/lines.png);
     height: fit-content;
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-    background-position: end;
+    background-position: top;
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 7px;
@@ -934,6 +1046,8 @@ li {
 
 .mySwiper {
     width: 100%;
+    position: relative;
+    left: 15%;
 }
 
 .testi-arrows i {
@@ -963,16 +1077,21 @@ li {
 
 .testi-container {
     padding-left: 20px;
+    height: 350px;
 }
 
 .testi-container p {
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 21px !important;
     text-align: left;
     color: #040E56;
 
+}
+.testi-profile {
+    position: absolute;
+    bottom: 20px;
 }
 
 .testi-profile div p:nth-child(1) {
@@ -1009,6 +1128,9 @@ li {
     color: #c4c4c4;
 
 }
+.choose h1{
+    font-size: 48px;
+}
 
 .choose li {
     font-family: Montserrat;
@@ -1019,22 +1141,60 @@ li {
     color: #c4c4c4;
 
 }
+/* Remove the fade transition for offcanvas */
+.modal-backdrop.show {
+    opacity: 0 !important; 
+  }
+  .offcanvas-backdrop.fade {
+    opacity: 0 !important; 
+  }
+  .modal-backdrop{
+    z-index: 0 !important;
+  }
+
 .vil{
-    width: 77%;
+    height: 60px !important;
+    width: 222px !important;
+    object-fit:contain;
 }
 .tech-img-des{
-    background-color: #497DFF !important;
-    color: white !important;
-    width: 160px !important;
+    background-color: #497dff !important;
+    width: 200px !important;
     position: relative !important;
-    top: 50px !important;
-    left: 50px !important;
+    top: 90px !important;
+    left: 7px !important;
+}
+.tech-img-des p{
+    font-weight: 600;
+color: white;
+padding: 5px 10px;
 }
 
 /* media query for mobile */
 @media only screen and (max-width: 768px) {
+    .testi-container {
+        padding-left: 20px;
+        height: 400px;
+    }
+    .mySwiper{
+left:2%;
+    }
+    .laptop{
+        height: 300px;
+    }
+    .future-con h2{
+        font-size: 26px;
+    }
+    .future-con p{
+        font-size: 16px !important;
+    }
+    
+    .whatwedo {
+        background-image: none;
+        background-color: #040E56;
+    }
         .client-bg{
-            background-color:#497DFF !important;
+            background-image:none;
     }
     .tech-img-des{
   color: white !important;
@@ -1042,25 +1202,25 @@ li {
     left: -7px !important;
   }
     .horizontal-list {
-    background-color: #497DFF !important;
+    background-image:none;
 
 }
 .clientboxmove{
-     background-color: #497DFF !important;
+     background-color: #040E56 !important;
 }
     .tick {
         display: block;
     }
     .vil{
-        width: 200px;
+        width: 200px !important;
     }
     .client-box h6 {
         color: #FFF;
         font-family: Urbanist;
-        font-size: 20px;
+        font-size: 35px;
         font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
+        font-weight: 800;
+        line-height: 35px;
         /* 103.704% */
     }
 
@@ -1214,25 +1374,7 @@ li {
         line-height: 25px;
     }
 
-    .Read {
-        display: flex;
-        height: 30.5px;
-        /* padding: 7px 12.31px 8.5px 13px; */
-        justify-content: center;
-        align-items: center;
-        font-family: Montserrat;
-        border: none !important;
-        /* padding: 2px; */
-        background-color: #497DFF;
-        color: white;
-        border-radius: 5px;
-        color: #FFF;
-        text-align: center;
-        font-size: 8px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 12.5px;
-    }
+
 
     .footer {
         background-color: #040E56;
@@ -1347,10 +1489,6 @@ li {
 
     }
 
-    .mySwiper {
-        width: 100%;
-
-    }
 
     .client-box {
         background-color: #040E56;
@@ -1359,11 +1497,12 @@ li {
 
     .keyboard-img {
         background-image: url(../internal/images/keyboard.png);
-        height: 300px;
+        height: fit-content;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        padding-bottom: 10px;
     }
 
     .intresting-des p {
@@ -1372,7 +1511,7 @@ li {
         font-family: Urbanist;
         font-size: 18px;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 600;
         line-height: 25px;
         /* 100% */
     }
@@ -1417,7 +1556,6 @@ li {
     .vision-all {
         display: block;
         justify-content: center;
-        align-items: center;
         padding-top: 30px;
     }
 
@@ -1486,6 +1624,7 @@ li {
   .submenu-item, .sub-submenu-item {
     padding: 10px;
     cursor: pointer;
+    
   }
   .sub-submenu-item{
     padding: 10px 20px;
@@ -2039,11 +2178,16 @@ a {
   }
 
   .submenu-item, .sub-submenu-item {
-    padding: 10px;
+    font-size: 13px;
+    padding: 8px;
     cursor: pointer;
+    white-space: nowrap;
+
   }
   .sub-submenu-item{
-    padding: 10px 20px;
+    font-size: 13px;
+    padding: 8px;
+    white-space: nowrap;
   }
   .sub-submenu-item:hover{
   background-color:#cecece7e ;
@@ -2074,4 +2218,21 @@ a {
   .insidesub-submenu-item:hover{
   background-color:#cecece7e ;
   }
+  
+  @media only screen and (max-width: 600px) {
+      
+      .choose h1{
+    font-size: 28px;
+}
+
+.testi-container p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #040E56;
+
+}
+      
+}
 

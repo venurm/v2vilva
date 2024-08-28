@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.about-us{
+    background-image: url(../internal/templatesfourimages/About.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 400px; */
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60PX;
+    margin-top:77px ;
+}
+.about-us h1{
+    text-align: center;
+    color: #56FFBD;
+    font-size: 60px;
+    font-family: Urbanist;
+    font-weight: 700;
+
+
+}
+.about-us p{
+    /* width: 50%; */
+    text-align: center;
+    line-height: 30px;
+    color: #EBEBEB;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+
+
+}
+.best-tech{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.best-tech-img{
+    background-image: url('../internal/templatesfourimages/vr.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+}
+.best-tech-des{
+    padding-top: 100px;
+}
+
+.best-tech-des h5{
+    color: #497DFF;
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 600;
+
+
+}
+.best-tech-des h2{
+    color: #040E56;
+    font-size: 48px;
+    padding-bottom: 15px;
+    font-family: Urbanist;
+    font-weight: 700;
+
+
+
+}
+.best-tech-des p{
+    color: #9B9B9B;
+    font-size: 16px;
+    padding-bottom: 25px;
+    line-height: 24px;
+    font-family: Montserrat;
+    font-weight: 400;
+
+ 
+}
+.best-tech-btn{
+    background-color: #497DFF;
+    color: white;
+    border: none;
+    padding: 7px 12.31px 8.5px 13px;
+    border-radius: 7px;
+}
+.project-completed h3{
+    color: #040E56;
+    font-size: 28px;
+    font-family: Urbanist;
+    font-weight: 700;
+
+
+}
+.project-completed p{
+    color: #9B9B9B;
+    font-size: 16px;
+    line-height: 24px; 
+    font-family: Montserrat;
+    font-weight: 400;
+
+
+}
+.projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.history-all{
+    background-image: url('../internal/templatesfourimages/History.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.history-des h5{
+    color: #56FFBD;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 104.167% */
+padding-bottom: 10px;
+}
+.history-des h3{
+    color: #FFF;
+font-family: Urbanist;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */
+padding-bottom: 10px;
+
+}
+.history-des p{
+    color: #EBEBEB;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 160% */
+padding-bottom: 10px;
+
+}
+.history-btn{
+    background-color: #497DFF;
+    color: white;
+    border: none;
+    padding: 7px 18.31px 8.5px 19px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+.history-img{
+    /* background-image: url('./img/vr.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 400px; */
+    padding-bottom: 60PX;
+    padding-top: 90px !important;
+}
+.history-des{
+    padding-top: 150px;
+}
+.our-client {
+    padding-top: 50px;
+}
+.our-client h3{
+    color: #040E56;
+font-family: Urbanist;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 112% */
+text-align: center;
+}
+.client-img img{
+    padding-top: 60px;
+    width: 95%;
+    padding-bottom: 60px;
+    
+}
+.our-client p{
+    color: #171717;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.our-values{
+    background-color: #040E56;
+}
+.our-values-des h3{
+    color: #FFF;
+font-family: Urbanist;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 55px */
+text-align: center;
+}
+
+.our-values-des h2{
+    text-align: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 33px */
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.our-values-des p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.5%; /* 30.1px */
+}
+
+.innovation-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* get in touch starts here */
+
+.get-in-touch h2{
+    color: #040E56;
+font-family: Urbanist;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 112% */
+text-align: center;
+padding-bottom: 30px;
+}
+
+.get-in-touch label {
+    color: #242331;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+    text-transform: capitalize;
+}
+
+.get-in-touch button{
+    background-color: #040E56;
+    color: white !important;
+    border-radius: 50px !important;
+    border: none !important;
+    padding: 15px 18px 16px 18px;
+}
+.get-in-touch input,textarea{
+    border-radius: 20px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    height: 60px;
+    width: 100%;
+}
+
+.get-in-touch input:focus,
+.get-in-touch textarea:focus {
+    border-color: #007bff; /* Change this to any color you prefer */
+    outline: none; /* Removes the default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional: Adds a shadow for a more prominent effect */
+}
+
+.get-in-touch textarea{
+    width: 100%;
+height: 200px;
+margin-bottom: 30px;
+}
+.get-in-touch form{
+    
+    padding: 15px;
+
+}
+.news-img{
+    position: absolute;
+    top: -162px;
+}
+/* form{
+    box-shadow: 0 0 30px #3339582e;
+    border: 1px solid #dfdced;
+    border-radius: 15px;
+    padding: 25px;
+} */
+
+
+
+
+
+/* get in touch ends here */
+
+
+
+/* products css starts here */
+
+.banner-img{
+    background-image: url('../internal/templatesfourimages/Banner.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: fit-content !important; 
+         height: fit-content;
+    /*margin-left: 40px;*/
+    /*margin-right: 40px;*/
+    border-radius: 20px;
+    padding: 80px 0px 40px 0px;
+}
+.prod-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+.prod-des h2{
+    color: #FFF;
+text-align: center;
+font-family: Urbanist;
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 66px */
+}
+
+.prod-des p{
+    padding-top: 35px;
+    width: 55%;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-transform: capitalize;
+}
+.prod-main-cont{
+    overflow: hidden;
+}
+
+.prod-head-img{
+    background-image: url('../internal/templatesfourimages/product.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+.prod-head-content h2{
+    color: #2F2F2F;
+font-family: Urbanist;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 44px */
+padding-bottom: 15px;
+}
+.prod-head-content p{
+    color: #808080;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.5%; /* 30.1px */
+}
+.prod-head-content {
+    /* padding: 90px; */
+    padding: 90px 90px 0 90px;
+
+}
+.client-testimonial-des h2{
+    color: #2F2F2F;
+font-family: Urbanist;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 44px */
+text-align: center;
+padding-bottom: 25px;
+}
+.test-img{
+    background-image: url('../internal/templatesfourimages/Quotes.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100% !important;
+    border-radius: 25px;
+}
+.test-img-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    padding-top: 140px;
+}
+.test-img-des p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 22px;
+font-style: italic;
+font-weight: 800;
+line-height: 150.5%; /* 61.705px */
+padding: 25px;
+}
+
+.news-letter-img{
+    background-image: url('../internal/templatesfourimages/news.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* height: 500px; */
+    border-radius: 20px;
+    padding: 15px;
+  
+}
+.news-letter-img h3{
+    color: #FFF;
+font-family: Urbanist;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 55px */
+}
+.news-letter-img p{
+    color: #FFF;
+/* text-align: center; */
+font-family: Mulish;
+font-size: 20px;
+font-style: italic;
+font-weight: 600;
+line-height: 150.5%; /* 30.1px */
+}
+.news-letter-img button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    padding: 10px 30px;
+}
+.news-letter-img input{
+    border:none;
+    width: 100%;
+    outline: none !important;;
+}
+
+.radio-btn{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    column-gap: 15px;
+}
+.radio-btn i {
+    color: #fff;
+}
+.radio-btn p{
+    color: #FFF;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.5%; /* 30.1px */
+}
+
+
+
+
+/* products css ends here */
+
+
+
+/* service starts below */
+
+
+.service-head-img{
+    background-image: url('../internal/templatesfourimages/UI.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+.service-head-content h2{
+    color: #2F2F2F;
+font-family: Urbanist;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 44px */
+padding-bottom: 15px;
+}
+.service-head-content p{
+    color: #808080;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.5%; /* 30.1px */
+}
+.service-head-content {
+    /* padding: 90px; */
+    padding: 90px 90px 0 90px;
+
+}
+.technology-we-use h3{
+    color: #2F2F2F;
+text-align: center;
+font-family: Urbanist;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 44px */
+padding-top: 15px;
+padding-bottom: 35px;
+}
+.technology-we-use p{
+    color: #808080;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.5%; /* 30.1px */
+padding-bottom: 35px;
+
+}
+.technology-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.technology-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.recent-project h2{
+    color: #000;
+text-align: center;
+font-family: Urbanist;
+font-size: 37px;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 44px */
+padding-bottom: 50px;
+
+}
+.recent-img-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.recent-img-des p{
+    color: #2F2F2F;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 207.5%; /* 41.5px */
+}
+.recent-img-des h4{
+    color: #2F2F2F;
+font-family: Urbanist;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 36px */
+}
+.news-input{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #DCDCDC;
+    height: 53px;
+    /* justify-content: center; */
+    padding: 0px 10px 0 20px;
+    justify-content: space-between;
+}
+
+
+/* media query starts here */
+
+@media only screen and (max-width: 768px) {
+
+    .service-head-content,.prod-head-content {
+        /* padding: 90px; */
+        padding: 30px 30px 0 30px;
+    
+    }
+    .prod-des p{
+        padding-top: 15px;
+        width: 100%;
+        color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+
+    }
+
+    .test-img-des p{
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 150.5%; /* 61.705px */
+    /* padding: 25px; */
+    }
+    .banner-img{
+       
+        margin-left: 0px;
+        margin-right: 0px;
+        /* border-radius: 20px;
+        padding: 40 0 40 0px; */
+    }
+
+    .news-letter-img h3{
+        color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%; /* 55px */
+    }
+
+    .news-letter-img p{
+        color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 150.5%; /* 30.1px */
+    }
+
+
+    .radio-btn p{
+        color: #FFF;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150.5%; /* 30.1px */
+    }
+
+  }
+  

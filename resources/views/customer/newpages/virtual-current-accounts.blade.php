@@ -11,15 +11,32 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Virtual Current Accounts </h1>
-                <p style="color:black; ,font-size: 40px;">At Virtual Current Accounts, we provide a sophisticated solution that allows businesses to manage their finances with greater flexibility and control. Our service enables the creation of virtual current accounts, which act as digital representations of traditional bank accounts. These accounts can be used to manage funds, process payments, and handle transactions with ease.!</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Virtual Current Accounts </h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">At Virtual Current Accounts, we provide a sophisticated solution that allows businesses to manage their finances with greater flexibility and control. Our service enables the creation of virtual current accounts, which act as digital representations of traditional bank accounts. These accounts can be used to manage funds, process payments, and handle transactions with ease.!</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=DbyIixuuazM">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Virtual Current Accounts</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Virtual Current Accounts</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
+
   <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">Streamline banking with convenience </h5>
@@ -99,62 +116,14 @@
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                          <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in Virtual Current Accounts</h3>
-                            <p style="color: #28334a ;">Trends in virtual current accounts are increasingly focused on advanced AI-driven financial management tools, which provide personalized insights and automated financial planning. Innovations include integrated digital banking services, offering seamless access to a wide range of financial products and services. Enhanced security features, such as biometric authentication and advanced encryption, are becoming standard to protect sensitive information.</p>
+     
+</body>  
+@include('customer.layouts.blogsection')
 
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>automated compliance tools</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>AI-Driven Financial Management</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>real-time analytics</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>    
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=DbyIixuuazM'
+  });
+</script>
 @endsection

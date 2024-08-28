@@ -11,8 +11,18 @@ use App\Http\Controllers\Customer\ServicesController;
 //     return view('customer.pages.index');
 // });
 
+
+//About page
+Route::get('/about', function () {
+    return view('customer.newpages.about');
+});
+
 Route::get('/', function () {
     return view('customer.newpages.newindex');
+});
+
+Route::get('/ecomsaas', function () {
+    return view('customer.newpages.ecomsaas');
 });
 
 //products

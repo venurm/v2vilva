@@ -11,15 +11,31 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about ">
-            <div class="text-center container">
-                 <h1>Shopify Solutions</h1>
-                <p style="color:black; ,font-size: 40px;"> App for Wholesalers, we develop tailored mobile solutions that streamline wholesale operations and enhance business efficiency. Our expert team integrates advanced technologies such as WhatsApp API for smooth communication, AI chatbots for automated support, and e-commerce SaaS features for effective inventory and order management. We design intuitive apps that simplify bulk ordering, manage supplier relationships, and track shipments. By focusing on innovation and operational efficiency, we help wholesalers optimize their processes, improve customer interactions, and gain a competitive edge in the market..</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about ">-->
+<!--            <div class="text-center container">-->
+<!--                 <h1>Shopify Solutions</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;"> App for Wholesalers, we develop tailored mobile solutions that streamline wholesale operations and enhance business efficiency. Our expert team integrates advanced technologies such as WhatsApp API for smooth communication, AI chatbots for automated support, and e-commerce SaaS features for effective inventory and order management. We design intuitive apps that simplify bulk ordering, manage supplier relationships, and track shipments. By focusing on innovation and operational efficiency, we help wholesalers optimize their processes, improve customer interactions, and gain a competitive edge in the market..</p>-->
                 
-            </div> 
+<!--            </div> -->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=BePoG2ONkTw">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Apps for Wholesalers</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Apps for Wholesalers</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
 <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">Streamline Order processing seamlessly </h5>
@@ -103,62 +119,14 @@
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                        <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in app for wholesalers</h3>
-                            <p style="color: #28334a ;">Trends and innovations in apps for wholesalers include the integration of AI-driven analytics for enhanced decision-making and sales forecasting, and IoT-based inventory management for real-time stock tracking and automated restocking. Blockchain technology is being used to ensure secure and transparent supply chain management, while mobile commerce and digital payment solutions streamline transactions and improve customer convenience.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>AI-Driven Analytics </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Enhanced Decision-Making</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>24/7 Tech Support</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     
 </body>
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=BePoG2ONkTw'
+  });
+</script>
 @endsection

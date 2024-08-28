@@ -12,16 +12,32 @@
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
 
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Sales Conversion Marketing</h1>
-                <p style="color:black; ,font-size: 40px;">Sales Conversion Marketing, strategic approach designed to turn potential leads into paying customers. By optimizing every step of the customer journey, from initial engagement to final purchase, businesses can increase conversion rates and maximize revenue..
-                </p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>Sales Conversion Marketing</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">Sales Conversion Marketing, strategic approach designed to turn potential leads into paying customers. By optimizing every step of the customer journey, from initial engagement to final purchase, businesses can increase conversion rates and maximize revenue..-->
+<!--                </p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" style="background-image: url(http://staging.vilvabusiness.com/vbtheme/images/marketing/sales.png);  height: 80% ;  width: 100%;  background-size: cover;  background-position: top ; background-repeat: no-repeat; ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Sales Conversion Marketing</h1>
+          <p>the effectiveness of your sales team at converting leads into new customers.</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Sales Conversion Marketing</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
  <div class="features-layout2">
         <div class="row  mx-auto container">
             <div class="col-12 col-md-4 ">
@@ -89,24 +105,8 @@
         </div>
     </div>
 
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
+
 </body>
+@include('customer.layouts.blogsection')
+
 @endsection

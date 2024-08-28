@@ -10,16 +10,34 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templatetwo.css') }}">
+
 <body>
-    <div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>Accounting Softwares </h1>
-                <p style="color:black; ,font-size: 40px;">At Accounting Softwares, we deliver robust mobile solutions designed to streamline financial management for businesses of all sizes. Our expert team integrates advanced features such as automated bookkeeping, real-time financial reporting, and secure data storage. Our user-friendly apps help businesses manage invoices, track expenses, and reconcile accounts effortlessly. With a focus on accuracy and ease of use, our solutions empower businesses to maintain financial clarity, ensure compliance, and make informed decisions. By leveraging the latest technology, we help businesses optimize their accounting processes and achieve financial success.!</p>
+    <!--<div class="banner ">-->
+    <!--    <div class="heading-about">-->
+    <!--        <div class="text-center container">-->
+    <!--            <h1>Accounting Softwares </h1>-->
+    <!--            <p style="color:black; ,font-size: 40px;">At Accounting Softwares, we deliver robust mobile solutions designed to streamline financial management for businesses of all sizes. Our expert team integrates advanced features such as automated bookkeeping, real-time financial reporting, and secure data storage. Our user-friendly apps help businesses manage invoices, track expenses, and reconcile accounts effortlessly. With a focus on accuracy and ease of use, our solutions empower businesses to maintain financial clarity, ensure compliance, and make informed decisions. By leveraging the latest technology, we help businesses optimize their accounting processes and achieve financial success.!</p>-->
                 
-            </div>
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <section class="page-title bg-overlay-black-60 jarallax" style="background-image: url(http://staging.vilvabusiness.com/vbtheme/images/Industry/acc2.png); height: 100%; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>Accounting Software</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>Accounting Software</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
+
  <div class="features-layout2">
         <div class="row  mx-auto container ">
             <div class="col-12 col-md-4 ">
@@ -34,7 +52,7 @@
                 </p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 ">
+            <div class="col-md-4 col-12 ">
                 <div class="layout-col-2 mt-3">
 
                 <div class="top-bg-c"></div>
@@ -89,25 +107,8 @@
 
         </div>
     </div>
-
-<!-- 
-    <div class="counter-wrapper row">
-        <div class="counter">
-            <h1 class="count" data-target="1254">0</h1>
-            <p>New Visiters Every Week</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="195">0</h1>
-            <p>Happy customers </p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="2172">0</h1>
-            <p>Won Amazing Awards</p>
-        </div>
-        <div class="counter">
-            <h1 class="count" data-target="72">72</h1>
-            <p>our products</p>
-        </div>
-    </div> -->
+     
 </body>  
+@include('customer.layouts.blogsection')
+
 @endsection

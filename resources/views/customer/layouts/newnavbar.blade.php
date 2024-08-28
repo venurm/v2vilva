@@ -4,13 +4,12 @@
 <head>
   @yield("head")
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vilva Buisness</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
   <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
   <link rel="shortcut icon" href="{{ asset('internal/images/fav-icon.png') }}" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
@@ -19,6 +18,41 @@
   <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    
+    
+    <!--ecomsaas-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--<link rel="icon" type="image/x-icon" href="./images/main.png">-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+      <!--ecomsaas-->
+      
+      
+      
+       <!--templeatefourbootstrap-->
+
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    
+     <!--templeatefourbootstrap-->
+      
+
 
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -47,6 +81,104 @@
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQ7K04MECW"></script>
+  <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1929635953961195');
+        fbq('track', 'PageView');
+    </script>
+
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1929635953961195&ev=PageView&noscript=1"/></noscript>
+    <!-- End Meta Pixel Code -->
+
+
+    <!-- <script>-->
+    <!--    document.addEventListener('DOMContentLoaded', function() {-->
+    <!--        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?59035';-->
+    <!--        var s = document.createElement('script');-->
+    <!--        s.type = 'text/javascript';-->
+    <!--        s.async = true;-->
+    <!--        s.src = url;-->
+    <!--        var options = {-->
+    <!--            "enabled": true,-->
+    <!--            "chatButtonSetting": {-->
+    <!--                "backgroundColor": "#4dc247",-->
+    <!--                "ctaText": "Message Us",-->
+    <!--                "borderRadius": "25",-->
+    <!--                "marginLeft": "0",-->
+    <!--                "marginBottom": "50",-->
+    <!--                "marginRight": "50",-->
+    <!--                "position": "right"-->
+    <!--            },-->
+    <!--            "brandSetting": {-->
+    <!--                "brandName": "Vilva Business",-->
+    <!--                "brandSubTitle": "Typically replies within a day",-->
+    <!--                "brandImg": "https://www.vilvabusiness.com/images/vilvabusiness-favicon.png",-->
+    <!--                "welcomeText": "Hi there!\nHow can I help you?",-->
+    <!--                "messageText": "Hello, I am contacting from VilvaBusiness.com",-->
+    <!--                "backgroundColor": "#0a5f54",-->
+    <!--                "ctaText": "Start Chat",-->
+    <!--                "borderRadius": "25",-->
+    <!--                "autoShow": false,-->
+    <!--                "phoneNumber": "919791136945"-->
+    <!--            }-->
+    <!--        };-->
+    <!--        s.onload = function() {-->
+    <!--            try {-->
+    <!--                CreateWhatsappChatWidget(options);-->
+    <!--            } catch (e) {-->
+    <!--                console.error("Error creating WhatsApp chat widget:", e);-->
+    <!--            }-->
+    <!--        };-->
+    <!--        var x = document.getElementsByTagName('script')[0];-->
+    <!--        x.parentNode.insertBefore(s, x);-->
+    <!--    });-->
+    <!--</script> -->
+
+
+    <!-- jquery -->
+    <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+
+    <!-- plugins-jquery -->
+    <script src="{{ asset('assets/js/plugins-jquery.js') }}"></script>
+    
+    <!-- plugin_path -->
+    <script>var plugin_path = '/assets/js/';</script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script src="{{ asset('assets/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script src="{{ asset('assets/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+    <!-- revolution custom -->
+    <script src="{{ asset('assets/revolution/js/revolution-custom.js') }}"></script>
+
+    <!-- custom -->
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
+    
+
+
+    <style type="text/css">
+        .required {
+            color: red;
+        }
+    </style>
 
 </head>
 
@@ -68,7 +200,7 @@
           </div>
 
           <!-- Mobile view -->
-<div class="main-menu d-md-none d-block">
+<div class="main-menu ">
     <div class="primary-menu-item" onclick="handleClick('/')">HOME
         <div class="dropdown-menu1" id="homeSubMenu">
             <!-- Home submenu items -->
@@ -76,6 +208,7 @@
     </div>
     <div class="primary-menu-item" onclick="toggleSubMenu('productsSubMenu')">PRODUCTS <span class="submenu-indicator">+</span>
         <div class="dropdown-menu1 d-flex flex-column" id="productsSubMenu">
+            <div class="menu-item" onclick="handleClick('/ecomsaas')">Ecom Saas</div>
             <div class="menu-item" onclick="handleClick('/products')">Products</div>
             <div class="menu-item" onclick="handleClick('/growsuite')">GrowSuite</div>
             <div class="menu-item" onclick="toggleSubMenu('ecommerceSubMenu', event)">Ecommerce Solutions <span class="submenu-indicator">+</span>
@@ -145,8 +278,8 @@
                     <div class="dropdown-menu1" id="marketingSubMenu11">
                       <div class="menu-item2" onclick="handleClick('/vliva-biz-sender-pro')" >Vilva Biz Sender Pro</div>
                       <div class="menu-item2" onclick="handleClick('/bulk-whatsapp')" >Bulk WhatsApp Marketing</div>
-                      <div class="menu-item2" onclick="handleClick('#')" >WhatsApp Business API</div>
-                      <div class="menu-item2" onclick="handleClick('/'official-whatsapp-facebook-business')" >Official WhatsApp Business & Facebook Business Setup</div>
+                      <div class="menu-item2" onclick="handleClick('/whatsapp-business-api')" >WhatsApp Business API</div>
+                      <div class="menu-item2" onclick="handleClick('/official-whatsapp-facebook-business')" >Official WhatsApp Business & Facebook Business Setup</div>
                      
                     </div>
                     </div>
@@ -195,9 +328,9 @@
     <div class="primary-menu-item" onclick="handleClick('/partners')">PARTNERS
        
     </div>
-    <div class="primary-menu-item"onclick="handleClick('#')">BLOG
+    <!--<div class="primary-menu-item"onclick="handleClick('#')">BLOG-->
         
-    </div>
+    <!--</div>-->
     
     <div class="primary-menu-item"onclick="handleClick('/register')">Register / Login
         
@@ -213,11 +346,11 @@
 
 
 <!--desktopview -->
-            <ul class="nav__list navbar-nav  d-md-flex d-none">
-              <li class="nav__item nav-item" style="margin-top: -8px">
+            <ul class="nav__list navbar-nav ">
+              <li class="nav__item nav-item" style="margin-top: 1px">
                 <a href="/" class="nav__link">
                   <i class="ri-arrow-right-up-line"></i>
-                  <span style="color:black;" class="nav-link " >Home</span>
+                  <span style="color:black;"  >Home</span>
                 </a>
               </li>
 
@@ -229,6 +362,7 @@
                     Products
 
                     <div class="submenu ">
+                      <div class="submenu-item" onclick="handleClick('/ecomsaas')">Ecom Saas</div>
                       <div class="submenu-item" onclick="handleClick('/products')">Products</div>
                       <div class="submenu-item"  onclick="handleClick('/growsuite')">Growsuite</div>
                       <div class="submenu-item">
@@ -236,17 +370,17 @@
                         <div class="sub-submenu">
 
                           <div class="sub-submenu-item" onclick="handleClick('/magento-solutions');">
-                            Magento website <br />development
+                            Magento website development
                           </div>
                           <div class="sub-submenu-item" onclick="handleClick('/opencart-solutions');">
-                            Opencart Website  <br />development
+                            Opencart Website  development
                           </div>
                           <div class="sub-submenu-item" onclick="handleClick('/wordpress-solutions');">WordPress website
-                            <br />development
+                            development
                           </div>
-                          <div class="sub-submenu-item" onclick="handleClick('/shopify-solutions');">Shopify website <br />development</div>
-                          <div class="sub-submenu-item"  onclick="handleClick('/android-solutions');">Android website <br />development</div>
-                          <div class="sub-submenu-item"   onclick="handleClick('/ios-solutions');">IOS website <br />development</div>
+                          <div class="sub-submenu-item" onclick="handleClick('/shopify-solutions');">Shopify website development</div>
+                          <div class="sub-submenu-item"  onclick="handleClick('/android-solutions');">Android website development</div>
+                          <div class="sub-submenu-item"   onclick="handleClick('/ios-solutions');">IOS website development</div>
                         </div>
                       </div>
                       <div class="submenu-item">
@@ -331,7 +465,7 @@
                             <div class="insidesub-submenu">
                               <div class="insidesub-submenu-item" onclick="handleClick('/vliva-biz-sender-pro');">Vilva Biz Sender Pro</div>
                               <div class="insidesub-submenu-item"  onclick="handleClick('/bulk-whatsapp');">Bulk WhatsApp Marketing</div>
-                              <div class="insidesub-submenu-item" onclick="handleClick('#');">WhatsApp Business API</div>
+                              <div class="insidesub-submenu-item" onclick="handleClick('/whatsapp-business-api');">WhatsApp Business API</div>
                               <div class="insidesub-submenu-item"  onclick="handleClick('/official-whatsapp-facebook-business');">Official WhatsApp Business & Facebook Business </div>
                               
                             </div>
@@ -401,19 +535,19 @@
                   <span>Partners</span>
                 </a>
               </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">
-                  <i class="ri-arrow-right-up-line"></i>
-                  <span>Blog</span>
-                </a>
-              </li>
+              <!--<li class="nav__item">-->
+              <!--  <a href="#" class="nav__link">-->
+              <!--    <i class="ri-arrow-right-up-line"></i>-->
+              <!--    <span>Blog</span>-->
+              <!--  </a>-->
+              <!--</li>-->
 
-              <li class="nav__item">
-                <a href="/contact" class="nav__link">
-                  <i class="ri-arrow-right-up-line"></i>
-                  <span>Contact</span>
-                </a>
-              </li>
+              <!--<li class="nav__item">-->
+              <!--  <a href="/contact" class="nav__link">-->
+              <!--    <i class="ri-arrow-right-up-line"></i>-->
+              <!--    <span>Contact</span>-->
+              <!--  </a>-->
+              <!--</li>-->
               <li class="nav__item">
                 <a href="/register" class="nav__link">
                   <i class="ri-arrow-right-up-line"></i>
@@ -428,59 +562,9 @@
   </header>
   @yield("content")
 
-  <!-- <div class="footer" style="background-color:#040E56">
-    <div class="footer-des row container mx-auto ">
-      <div class="vilva-foot col-12 col-md-3">
-        <div class="f-bg">
-          <img src="{{asset('internal/images/vilvabusiness-logo-footer.webp')}}" alt="" srcset="" class="vilva"
-            style="height: 50px; ">
-        </div>
-        <p>Vilva Business is a B2B all in one service Portal with Solutions ranging from Marketing, Accounting, HR
-          Management, Business Printing Supplies,
-          Technology Services such as Website Development, Hosting and everything else a successful business needs for
-          its existence and growth.</p>
-      </div>
-      <div class="quick col-6 col-md-3">
-        <h5>Quick Contact</h5>
-        <ul>
-          <li><i class="fa-solid fa-building"></i> &nbsp;&nbsp;Rometheme Studio</li>
-          <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;chennai</li>
-          <li><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;7358599214</li>
-          <li><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;info@domain.com</li>
-        </ul>
-      </div>
-      <div class="otherpage col-6 col-md-3">
-        <h5>Other Page</h5>
-        <ul>
-          <li><i class="fa-solid fa-plus"></i>&nbsp; &nbsp;Privacy Policy</li>
-          <li><i class="fa-solid fa-plus"></i>&nbsp; &nbsp;Term of Service</li>
-          <li><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;Disclaimer</li>
-          <li><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;Credit</li>
-        </ul>
-      </div>
-      <div class="social col-12 col-md-3">
-        <h5>Our Social Media</h5>
-        <ul>
-          <li><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp; <a href="https://www.facebook.com/vilvanetworks/"
-              target=blank style="color:white;">Facebook</a></li>
-          <li><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;<a href="https://www.instagram.com/vilvabusiness/"
-              target=blank style="color:white;">Instagram</a></li>
-          <li><i class="fa-brands fa-x-twitter"></i>&nbsp;&nbsp;<a
-              href="https://x.com/NetworksVilva?t=vmaIxV5Lh1mwk8gIhNRCgQ&s=09" target=blank style="color:white;">X</a>
-          </li>
-          <li><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;<a href="https://in.linkedin.com/company/vilvanetworks"
-              target=blank style="color:white;">Linked In</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="reserve">
-      <p>Copyright <span id="year"></span> © Vilva Networks</p>
-    </div>
-  </div> -->
-
-  <footer class="footer black-bg">
+  <footer class="footer black-bg"  data-aos="fade-up"data-aos-duration="1000">
     <div class="page-section-pt">
-      <div class="container" style="max-width: 90%;">
+      <div class="container mx-auto" style="max-width: 90%;">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 col-sm-6 sm-mb-30">
@@ -493,13 +577,13 @@
             </div>
             <div class="social-icons color-hover">
               <ul>
-                <li class="social-facebook"><a href="https://www.facebook.com/vilvanetworks/"><i
+                <li class="social-facebook"><a href="https://www.facebook.com/vilvanetworks/" target="_blank"><i
                       class="fa fa-facebook"></i></a></li>
-                <li class="social-twitter"><a href="https://twitter.com/NetworksVilva"><i class="fa fa-twitter"></i></a>
+                <li class="social-twitter"><a href="https://twitter.com/NetworksVilva" target="_blank"><i class="fa fa-twitter"></i></a>
                 </li>
-                <li class="social-instagram"><a href="https://www.instagram.com/vilvanetworks/"><i
+                <li class="social-instagram"><a href="https://www.instagram.com/vilvanetworks/" target="_blank"><i
                       class="fa fa-instagram"></i> </a></li>
-                <li class="social-linkedin"><a href="https://in.linkedin.com/company/vilvanetworks"><i
+                <li class="social-linkedin"><a href="https://in.linkedin.com/company/vilvanetworks" target="_blank"><i
                       class="fa fa-linkedin"></i> </a></li>
               </ul>
             </div>
@@ -510,9 +594,9 @@
               <h6 class="text-white mb-30 mt-10 text-uppercase">Navigation</h6>
               <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="/about">About Us</a></li>
                 <!--  <li><a href="careers">Careers</a></li>-->
-                <li><a href="#">News</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="/contact">Contact Us</a></li>
               </ul>
             </div>
@@ -568,10 +652,35 @@
     </div>
   </footer>
 
-</body>
+
+ <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
+
+    <!--<script src="https://app.aminos.ai/js/chat_plugin.js" data-bot-id="20138"></script>-->
+
+
+
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    
+    @if (Session::has('message'))
+    <script>
+        toastr.options.timeOut = 10000;
+        toastr.success("{{ Session::get('message') }}");
+    </script>
+    @endif
+
+    @if ($errors->any())
+        @foreach ($errors->all() as $error)
+            <script>
+                toastr.options.timeOut = 10000;
+                toastr.error("{{ $error }}");
+            </script>
+        @endforeach
+    @endif
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
+
 <script>
   var swiper = new Swiper(".mySwiper", {
     loop: true, // Enable looping
@@ -579,6 +688,11 @@
       el: ".swiper-pagination",
       type: "fraction",
     },
+    autoplay: {
+    delay: 3000, // Set autoplay delay in milliseconds (e.g., 3000ms = 3 seconds)
+    disableOnInteraction: false, // Keep autoplay running after user interactions
+  },
+  speed: 3000,
     navigation: {
       nextEl: ".swiper-button-next1",
       prevEl: ".swiper-button-prev1",
@@ -586,7 +700,7 @@
     breakpoints: {
       // when window width is <= 320px
       320: {
-        slidesPerView: 1,
+        slidesPerView: 1.1,
         spaceBetween: 10,
       },
       // when window width is <= 480px
@@ -613,6 +727,8 @@
   });
 
 </script>
+
+
 <script>
   function handleClick(url) {
     // Your custom JavaScript code can go here
@@ -624,6 +740,15 @@
 
 <script src="https://app.aminos.ai/js/chat_plugin.js" data-bot-id="20138"></script>
 
+
+ <!-- start webpushr tracking code --> 
+    <script>
+        (function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";
+        fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));
+        webpushr('setup',{'key':'BFYUB8JqtZJJrD_FJTqVYeueSgDdZ7-KC56CD01VB4ufSF1zpJt3HvYIba0BqTzkSzcbD8eT1PG-_ypOMHKTH4s' });
+    </script>
+    <!-- end webpushr tracking code -->
+    
 
 <!--<script>-->
 <!--  var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?12205';-->
@@ -673,4 +798,13 @@
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+
+</body>
 </html>

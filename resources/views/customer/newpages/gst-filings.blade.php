@@ -10,19 +10,35 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about ">
-            <div class="text-center container">
-                 <h1>GST Filings</h1>
-                <p style="color:black; ,font-size: 40px;"> GST Filings, we offer a specialized mobile solution designed to simplify and streamline the Goods and Services Tax (GST) filing process. Our expert team integrates advanced features like automated data entry, real-time compliance checks, and secure document storage to ensure accurate and timely GST submissions. With a user-friendly interface and robust functionalities, our app helps businesses manage their GST obligations efficiently, track filing deadlines, and stay updated with regulatory changes. By focusing on accuracy and ease of use, we empower businesses to navigate the complexities of GST filing with confidence and compliance.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about ">-->
+<!--            <div class="text-center container">-->
+<!--                 <h1>GST Filings</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;"> GST Filings, we offer a specialized mobile solution designed to simplify and streamline the Goods and Services Tax (GST) filing process. Our expert team integrates advanced features like automated data entry, real-time compliance checks, and secure document storage to ensure accurate and timely GST submissions. With a user-friendly interface and robust functionalities, our app helps businesses manage their GST obligations efficiently, track filing deadlines, and stay updated with regulatory changes. By focusing on accuracy and ease of use, we empower businesses to navigate the complexities of GST filing with confidence and compliance.</p>-->
                 
-            </div> 
+<!--            </div> -->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-video-src="https://www.youtube.com/watch?v=OiHJKG14GdU">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>GST Fillings</h1>
+          <p>We know the secret of your success</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>GST Fillings</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
  <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">Unlock  Your Business Potential with GST Fillings</h5>
-            <h2 style="color: #001e60;">How often do businesses need to file GST returns? </h2>
+            <h2 style="color: #001e60;">How often do businesses need to file GST returns </h2>
         </div>
         <div class="benifits mx-auto">
             <div class="col-md-3 col-12 ben-ai">
@@ -59,10 +75,10 @@
         <div class="row container pt-5 mx-auto">
             <div class="col-md-6 col-12">
                 <div class="useimg">
-                      <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 100%;width: 90%;">
+                      <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 80%;width: 90%;">
                 </div>
             </div>
-            <div class="col-12 col-md-6 mt-5">
+            <div class="col-12 col-md-6 ">
                 <div class="row" id="row1">
                     <h3>Monthly/Quarterly Tax Returns</h3>
                     <p>Businesses must file GSTR-1 (sales) and GSTR-3B (summary of inward and outward supplies) on a monthly or quarterly basis to report their tax liability and claim input tax credits.
@@ -96,74 +112,22 @@
 
     <div class="ready mt-5 pb-5 container">
         <div class="ready-des">
-            <h3 style="color: #001e60;">Ready to Get Started? </h3>
+            <h3 style="color: #001e60;">Your Next Success Story Begins Here – Let’s Get Started!</h3>
             <h5 style="color: #28334a;">Experience device management, made easy!
             </h5>
             <div class="contact-us">
-                <button type="button">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                <button type="button"><a href="/contact" target="_blank" style="color:white;">Subscribe to Our Service</a> <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-        </div>
-    </div>
-
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                         <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in GST Filings</h3>
-                            <p style="color: #28334a ;">Automation and artificial intelligence are revolutionizing GST filings by automating data extraction, error detection, and reconciliation processes. This innovation reduces manual effort, enhances accuracy, and speeds up the overall filing process, making compliance more efficient and less prone to errors.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Automation and AI Integration
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Efficiency
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4> Accuracy and speeds up the process</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </body> 
+@include('customer.layouts.blogsection')
+
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.6,
+    videoSrc: 'https://www.youtube.com/watch?v=OiHJKG14GdU'
+  });
+</script>
 @endsection

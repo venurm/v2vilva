@@ -10,15 +10,31 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/templateone.css') }}">
 <body>
-<div class="banner ">
-        <div class="heading-about">
-            <div class="text-center container">
-                <h1>LinkedIn Marketing</h1>
-                <p style="color:black; ,font-size: 40px;">LinkedIn Marketing,strategic approach to building your brand, generating leads, and establishing thought leadership within the professional community. By utilizing LinkedIn’s unique platform, businesses can connect with a highly targeted audience, engage with industry professionals, and drive business growth.</p>
+<!--<div class="banner ">-->
+<!--        <div class="heading-about">-->
+<!--            <div class="text-center container">-->
+<!--                <h1>LinkedIn Marketing</h1>-->
+<!--                <p style="color:black; ,font-size: 40px;">LinkedIn Marketing,strategic approach to building your brand, generating leads, and establishing thought leadership within the professional community. By utilizing LinkedIn’s unique platform, businesses can connect with a highly targeted audience, engage with industry professionals, and drive business growth.</p>-->
                 
-            </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" style="background-image: url(http://staging.vilvabusiness.com/vbtheme/images/marketing/ln.png);  height:100%; width:100% ; background-size: cover;  background-position: right ; background-repeat: no-repeat;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="page-title-name">
+          <h1>LinkedIn Marketing</h1>
+          <p>Reach your marketing goals with more ad options.</p>
         </div>
-    </div>
+          <ul class="page-breadcrumb">
+            <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><span>LinkedIn Marketing</span> </li>
+       </ul>
+     </div>
+   </div>
+  </div>
+</section>
  <div class="prod-des container ">
         <div class="prod-head">
             <h5 style="color: #4a12f0;">LinkedIn Marketing </h5>
@@ -114,64 +130,8 @@
         </div>
     </div>
 
-     <div class="latest-news pt-5 pb-5">
-        <h3 style="color: #4a12f0; text-align: center; padding-bottom: 30px;">Latest News</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12">
-                    <div class="latest-img-all">
-                          <img src="{{ asset('internal/templatesimages/post.jpg') }}" alt="" srcset="" style="height: 85%;width: 50%;">
-                        <div class="img-des">
-                            <h6 style="color: #4a12f0;">Blog</h6>
-                            <h3 style="color: #001e60;">Trends and Innovations in  Linked in Marketing  </h3>
-                            <p style="color: #28334a ;">LinkedIn marketing is focusing on advanced targeting algorithms and AI-driven insights for better engagement. Interactive content and video are becoming more prevalent. Enhanced analytics tools are optimizing campaign performance.</p>
-
-                            <div class="read-more">
-                                <button type="button">Read More &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <!-- <i class="fa-solid fa-newspaper" style="color: #616899;"></i> -->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-md-5 col-12">
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Customer Retention
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4>Promotional Campaign
-                            </h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="blog">
-                            <h5>Features</h5>
-                            <h4> Accuracy and speeds up the process</h4>
-                            <div class="b-btn">
-                                <button type="button">Read More  &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i> </button>
-                                <i class="fa-solid fa-newspaper" style="color: #616899; font-size: 20px;" ></i>  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     
 </body>  
+@include('customer.layouts.blogsection')
+
 @endsection

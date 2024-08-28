@@ -368,7 +368,8 @@ header.one-page { position: absolute; width: 100%; z-index: 999; }
 .navbar-inverse .navbar-nav>li>a:hover { color: #007e60; }
 .navbar.affix { width: 100%; background: #323232; }
 .navbar.affix { width: 100%; background: #323232; }
-.navbar { min-height: inherit !important;  }
+.navbar { min-height: inherit !important;box-shadow: 0 5px 20px rgba(51, 57, 88, 0.2)!important;
+  }
 .navbar.affix .navbar-brand img { height: 30px; }
 .navbar.affix .navbar-brand { padding: 15px 0; }
 .navbar.affix .navbar-nav>li { padding: 20px 15px; }
@@ -1750,9 +1751,46 @@ img#logo-footer{ height: 40px; width: auto; }
 .login-fancy-bg { position: relative;  z-index: 1; }
 .login-fancy h2 { font-size: 70px; line-height: 70px; }
 .login-gradient, .login-gradient-02, .login-gradient-03  { position: relative; }
-.login-gradient:before { z-index: 0; opacity: .8; position: absolute; content: ""; height: 100%; width: 100%; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.6); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9af1e1), color-stop(100%, #4003f6)); background: -webkit-linear-gradient(-315deg, #9af1e1 0%, #4003f6 100%);  background: -webkit-linear-gradient(45deg, #9af1e1 0%, #4003f6 100%);  background: linear-gradient(45deg, #9af1e1 0%, #4003f6 100%); }
-.login-gradient-02:before { z-index: 0; opacity: .8; position: absolute; content: ""; height: 100%; width: 100%; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.6); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee38a6), color-stop(100%, #ffc863)); background: -webkit-linear-gradient(-315deg, #ee38a6 0%, #ffc863 100%);  background: -webkit-linear-gradient(45deg, #ee38a6 0%, #ffc863 100%);  background: linear-gradient(45deg, #ee38a6 0%, #040E56 !important 100%); }
-.login-gradient-03:before { z-index: 0; opacity: .8; position: absolute; content: ""; height: 100%; width: 100%; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.6); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcdd2), color-stop(100%, #470df5)); background: -webkit-linear-gradient(-315deg, #ffcdd2 0%, #470df5 100%);  background: -webkit-linear-gradient(45deg, #ffcdd2 0%, #470df5 100%);  background: linear-gradient(45deg, #ffcdd2 0%, #470df5 100%); }
+.login-gradient:before { 
+    z-index: 0 !important; 
+    opacity: 0.8 !important; 
+    position: absolute !important; 
+    content: "" !important; 
+    height: 100% !important; 
+    width: 100% !important; 
+    top: 0 !important; 
+    bottom: 0 !important; 
+    background: rgba(0, 0, 0, 0.6) !important; 
+    background: linear-gradient(45deg, #4A90E2 0%, #007AFF 100%) !important;
+}
+
+.login-gradient-02:before { 
+    z-index: 0 !important; 
+    opacity: 0.8 !important; 
+    position: absolute !important; 
+    content: "" !important; 
+    height: 100% !important; 
+    width: 100% !important; 
+    top: 0 !important; 
+    bottom: 0 !important; 
+    background: rgba(0, 0, 0, 0.6) !important; 
+    background: linear-gradient(45deg, #040E56 0%, #040E56 100%) !important;
+}
+
+.login-gradient-03:before { 
+    z-index: 0 !important; 
+    opacity: 0.8 !important; 
+    position: absolute !important; 
+    content: "" !important; 
+    height: 100% !important; 
+    width: 100% !important; 
+    top: 0 !important; 
+    bottom: 0 !important; 
+    background: rgba(0, 0, 0, 0.6) !important; 
+    background: linear-gradient(45deg, #3A7BD5 0%, #00d2ff 100%) !important;
+}
+
+
 
 /*login-box*/
 .login-box { padding: 30px; height: 100%; box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.06); border-radius: 0px 10px 10px 0px; }

@@ -22,6 +22,9 @@
             high-performance software platforms and cloud computing services that ensure seamless connectivity and
             scalability.</p>
     </div>
+        <div class="technology-all">
+
+    
     <div class="tech-cont">
         <div class="logos container container-fluid" >
             <div class="logos-slide">
@@ -156,6 +159,9 @@
             Our commitment to innovation extends to every aspect of our technological stack, enabling us to deliver solutions that not only meet but exceed expectations. As we continue to embrace emerging technologies, we remain dedicated to pushing the boundaries of what's possible in the digital realm.
         </p>
     </div>
+    
+                </div>
+
 
 
 
@@ -218,5 +224,7 @@
 
    
 </body>
+
+
 
 @endsection
